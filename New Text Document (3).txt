@@ -1,0 +1,15 @@
+https://app.flinko.com:8102/optimize/v1/modules/
+send project id in the header
+projectId {ProjectId}
+Auth : Bearer 
+
+Body: 
+{
+    "name": "Mod2",
+    "desc": "",
+    "parentId": "{}",
+    "parentName": "{}",
+    "projectId": "PJT1046",
+    "executionOrder": {},
+    "hierarchy": 1
+}
